@@ -97,7 +97,7 @@ const CTASection = () => {
 
         <div className="text-center mt-12">
           <p className="text-blue-200 mb-4">
-            <strong>Perfect for businesses with $500k+ annual revenue</strong>
+            <strong>Perfect for businesses ready to scale</strong>
           </p>
           <div className="flex flex-wrap justify-center gap-6 text-sm text-blue-300">
             <span>✓ No long-term contracts</span>

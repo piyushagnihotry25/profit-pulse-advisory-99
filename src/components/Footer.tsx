@@ -13,7 +13,7 @@ const Footer = () => {
           </div>
           
           <p className="text-gray-300 mb-8 max-w-2xl mx-auto">
-            Empowering businesses with $500k+ revenue to achieve sustainable growth through strategic financial leadership and expert CFO services.
+            Empowering growing businesses to achieve sustainable growth through strategic financial leadership and expert CFO services.
           </p>
           
           <div className="flex justify-center items-center space-x-6 mb-8">

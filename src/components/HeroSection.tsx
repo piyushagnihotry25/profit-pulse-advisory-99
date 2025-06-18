@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { ArrowDown, ChartLine, Check } from "lucide-react";
@@ -29,7 +30,7 @@ const HeroSection = () => {
           </h1>
           
           <p className="text-xl lg:text-2xl text-blue-100 mb-8 max-w-3xl mx-auto leading-relaxed">
-            Transform your $500k+ business with professional CFO services. From cashflow optimization to funding preparation, we deliver the financial expertise you need to scale confidently.
+            Transform your growing business with professional CFO services. From cashflow optimization to funding preparation, we deliver the financial expertise you need to scale confidently.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
