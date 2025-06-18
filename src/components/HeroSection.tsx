@@ -1,7 +1,6 @@
-
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { ArrowDown, ChartLine } from "lucide-react";
+import { ArrowDown, ChartLine, Check } from "lucide-react";
 
 const HeroSection = () => {
   const scrollToServices = () => {
