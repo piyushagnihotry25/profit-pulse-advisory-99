@@ -18,101 +18,96 @@ const ServicesSection = () => {
   const services = [
     {
       icon: FileText,
-      title: "Financial Cleanup & Catch-up",
-      description: "Comprehensive cleanup and reconciliation of your financial records to ensure accuracy and compliance for strategic decision-making.",
-      features: ["Monthly reconciliations", "Historical data cleanup", "Process standardization"]
+      title: "Financial Infrastructure & Controls",
+      description: "Institutional-grade financial cleanup, reconciliation, and process standardization to ensure audit-ready accuracy and strategic decision-making capability.",
+      features: ["Monthly close optimization", "Historical data remediation", "SOX-compliant processes"]
     },
     {
       icon: Wallet,
-      title: "Strategic Cashflow Management",
-      description: "Ensure your business always has cash on hand with sophisticated forecasting and cash optimization strategies.",
-      features: ["13-week cash forecasts", "Working capital optimization", "Scenario planning"]
+      title: "Liquidity & Working Capital Management",
+      description: "Sophisticated cash forecasting and working capital optimization using enterprise-level methodologies to ensure optimal financial positioning.",
+      features: ["Rolling 13-week forecasts", "Working capital optimization", "Multi-scenario planning"]
     },
     {
       icon: Clock,
-      title: "Receivables Optimization",
-      description: "Streamline your collections process to eliminate missed and delayed payments, improving your cash conversion cycle.",
-      features: ["Automated invoicing", "Collections strategy", "Credit risk assessment"]
+      title: "Revenue Cycle Optimization",
+      description: "Systematic approach to accounts receivable management, eliminating payment delays and optimizing cash conversion cycles through proven methodologies.",
+      features: ["Automated collections systems", "Credit risk modeling", "DSO optimization"]
     },
     {
       icon: ChartLine,
-      title: "Market Focus Analytics",
-      description: "Data-driven insights to identify which products, customers, and markets deserve your strategic focus and investment.",
-      features: ["Customer profitability analysis", "Market penetration studies", "Growth opportunity mapping"]
+      title: "Strategic Market Intelligence",
+      description: "Data-driven market and customer analytics to identify high-value opportunities and optimize resource allocation for maximum ROI.",
+      features: ["Customer lifetime value analysis", "Market penetration modeling", "Portfolio optimization"]
     },
     {
       icon: Percent,
-      title: "Cost Optimization & Profitability",
-      description: "Detailed per-product profitability analysis to identify cost-saving opportunities and margin improvement strategies.",
-      features: ["Product line analysis", "Cost center optimization", "Margin improvement plans"]
+      title: "Profitability & Performance Analytics",
+      description: "Comprehensive profitability analysis at product, customer, and segment levels to drive margin improvement and strategic decision-making.",
+      features: ["Activity-based costing", "Margin waterfall analysis", "Performance benchmarking"]
     },
     {
       icon: Shield,
-      title: "Funding Preparation",
-      description: "Prepare your financial records and business metrics to be investor and bank-ready for funding opportunities.",
-      features: ["Due diligence preparation", "Financial projections", "Investor deck support"]
+      title: "Capital Markets Readiness",
+      description: "Investment-grade financial preparation including due diligence readiness, financial modeling, and investor presentation development.",
+      features: ["Due diligence preparation", "Financial model development", "Investor relations support"]
     },
     {
       icon: Database,
-      title: "Executive Dashboards",
-      description: "Real-time dashboards for company health metrics, target setting, and historical benchmarking analysis.",
-      features: ["KPI tracking", "Performance benchmarking", "Executive reporting"]
+      title: "Executive Reporting & KPI Management",
+      description: "Real-time executive dashboards and performance management systems with industry benchmarking and variance analysis.",
+      features: ["Executive dashboards", "KPI framework development", "Board reporting packages"]
     },
     {
       icon: HandCoins,
-      title: "Grant & Support Research",
-      description: "Identify and secure applicable government grants and support programs to reduce costs and fund growth.",
-      features: ["Grant opportunity identification", "Application support", "Compliance monitoring"]
+      title: "Government Relations & Incentives",
+      description: "Strategic identification and securing of government grants, tax credits, and support programs to optimize cost structure and fund growth.",
+      features: ["Grant opportunity assessment", "Application management", "Compliance monitoring"]
     },
     {
       icon: Search,
-      title: "Tax Strategy Optimization",
-      description: "Proactive tax planning to identify deferral opportunities and implement saving strategies for maximum efficiency.",
-      features: ["Tax planning", "Deferral strategies", "Compliance optimization"]
-    },
-    {
-      icon: FileText,
-      title: "ITC & GST Management",
-      description: "Comprehensive record-keeping and filing management for Input Tax Credits and GST compliance.",
-      features: ["ITC optimization", "GST compliance", "Audit preparation"]
+      title: "Tax Strategy & Optimization",
+      description: "Proactive tax planning and structuring to minimize effective rates while ensuring compliance and identifying deferral opportunities.",
+      features: ["Tax structure optimization", "Deferral strategies", "Multi-jurisdiction planning"]
     }
   ];
 
   return (
-    <section id="services" className="py-20 bg-white">
+    <section id="services" className="py-24 bg-white">
       <div className="container mx-auto px-6">
-        <div className="text-center mb-16">
-          <Badge className="mb-4 bg-blue-100 text-blue-800 hover:bg-blue-200">
-            Our Services
+        <div className="text-center mb-20">
+          <Badge className="mb-6 bg-slate-100 text-slate-700 hover:bg-slate-200 px-4 py-2">
+            Service Capabilities
           </Badge>
-          <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
-            Comprehensive Financial Leadership
+          <h2 className="text-4xl lg:text-6xl font-light text-slate-900 mb-8 tracking-tight">
+            Comprehensive Financial
+            <span className="block font-bold">Leadership</span>
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            From day-to-day financial operations to strategic planning, we provide the full spectrum of CFO services to drive your business growth.
+          <p className="text-xl text-slate-600 max-w-4xl mx-auto font-light leading-relaxed">
+            From operational excellence to strategic transformation, we deliver the full spectrum of CFO services with institutional rigor and proven methodologies.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
           {services.map((service, index) => (
-            <Card key={index} className="group hover:shadow-xl transition-all duration-300 hover:scale-105 border-gray-200 hover:border-blue-300">
-              <CardHeader className="pb-4">
-                <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4 group-hover:bg-blue-600 transition-colors duration-300">
-                  <service.icon className="w-6 h-6 text-blue-600 group-hover:text-white transition-colors duration-300" />
+            <Card key={index} className="group hover:shadow-2xl transition-all duration-500 hover:scale-[1.02] border-slate-200 hover:border-slate-300 bg-white">
+              <CardHeader className="pb-6">
+                <div className="w-16 h-16 bg-slate-100 rounded-sm flex items-center justify-center mb-6 group-hover:bg-slate-900 transition-colors duration-300">
+                  <service.icon className="w-8 h-8 text-slate-600 group-hover:text-white transition-colors duration-300" />
                 </div>
-                <CardTitle className="text-xl font-semibold text-gray-900 group-hover:text-blue-900 transition-colors">
+                <CardTitle className="text-xl font-semibold text-slate-900 group-hover:text-slate-800 transition-colors mb-3 leading-tight">
                   {service.title}
                 </CardTitle>
-                <CardDescription className="text-gray-600 leading-relaxed">
+                <CardDescription className="text-slate-600 leading-relaxed font-light">
                   {service.description}
                 </CardDescription>
               </CardHeader>
               <CardContent>
-                <ul className="space-y-2">
+                <ul className="space-y-3">
                   {service.features.map((feature, featureIndex) => (
-                    <li key={featureIndex} className="flex items-center text-sm text-gray-700">
-                      <Check className="w-4 h-4 text-green-500 mr-2 flex-shrink-0" />
-                      {feature}
+                    <li key={featureIndex} className="flex items-center text-sm text-slate-700">
+                      <Check className="w-4 h-4 text-slate-400 mr-3 flex-shrink-0" />
+                      <span className="font-light">{feature}</span>
                     </li>
                   ))}
                 </ul>
